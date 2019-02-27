@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script> 
+</head>
+<body>
+    
+    <div class="trivia-questions text-center">
+
+        <p class="question">1. Test Question</p>
+        <form class="response">
+            <label class="form-check form-check-inline text-mysize">
+              <input type="radio" name="optradio" class="optradio" value="correct"> Resp1 </label>
+            
+            <label class="form-check form-check-inline text-mysize">
+              <input type="radio" name="optradio" class="optradio" value="wrong"> Resp2  </label>
+            
+            <label class="form-check form-check-inline text-mysize">
+              <input type="radio" name="optradio" class="optradio" value="wrong"> Resp3  </label>
+        </form>
+
+        <div>
+        <p class="lead btn btn-lg btn-danger" id="game-done">Done</p>
+        </div>
+        
+
+    </div>
+
+    <div class="endStats text-center">
+        <p class="lead2" id="summary">All Done!</p> 
+        <p class="lead2" id="correctScore"></p>
+        <p class="lead2" id="wrongScore"></p>
+        <p class="lead2" id="unanswered"></p>
+    </div>
+
+    
+
+        
+        
+</body>
+</html>
+
