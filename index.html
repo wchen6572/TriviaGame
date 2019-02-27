@@ -10,20 +10,101 @@
     <script src="assets/javascript/app.js"></script> 
 </head>
 <body>
+        <div class="jumbotron text-center">
+                <h1>Trivia Game</h1>
+        </div>
+
+        <!-- <div id="countdown">
+                
+        </div> -->
+            
+            
+
     
     <div class="trivia-questions text-center">
 
-        <p class="question">1. Test Question</p>
+        <p class="question">1. What year did the moon landing occur?</p>
         <form class="response">
             <label class="form-check form-check-inline text-mysize">
-              <input type="radio" name="optradio" class="optradio" value="correct"> Resp1 </label>
+              <input type="radio" name="optradio" class="optradio" value="wrong"> 1960 </label>
             
             <label class="form-check form-check-inline text-mysize">
-              <input type="radio" name="optradio" class="optradio" value="wrong"> Resp2  </label>
+              <input type="radio" name="optradio" class="optradio" value="wrong"> 1953  </label>
             
             <label class="form-check form-check-inline text-mysize">
-              <input type="radio" name="optradio" class="optradio" value="wrong"> Resp3  </label>
+              <input type="radio" name="optradio" class="optradio" value="correct"> 1969  </label>
+            
+            <label class="form-check form-check-inline text-mysize">
+                <input type="radio" name="optradio" class="optradio" value="wrong"> 1965  </label>
+
         </form>
+
+
+        <p class="question">2. The process of making cow’s milk safe for human consumption is called what?</p>
+        <form class="response">
+            <label class="form-check form-check-inline text-mysize">
+              <input type="radio" name="optradio" class="optradio" value="wrong"> Boiling </label>
+            
+            <label class="form-check form-check-inline text-mysize">
+              <input type="radio" name="optradio" class="optradio" value="correct"> Pasteurization  </label>
+            
+            <label class="form-check form-check-inline text-mysize">
+              <input type="radio" name="optradio" class="optradio" value="wrong"> Hot-Clean  </label>
+            
+            <label class="form-check form-check-inline text-mysize">
+                <input type="radio" name="optradio" class="optradio" value="wrong"> Centrifuge  </label>
+
+        </form>
+
+
+        <p class="question">3. What is the color of Donald Duck's bowtie?</p>
+        <form class="response">
+            <label class="form-check form-check-inline text-mysize">
+              <input type="radio" name="optradio" class="optradio" value="wrong"> Green </label>
+            
+            <label class="form-check form-check-inline text-mysize">
+              <input type="radio" name="optradio" class="optradio" value="wrong"> Blue  </label>
+            
+            <label class="form-check form-check-inline text-mysize">
+              <input type="radio" name="optradio" class="optradio" value="wrong"> Yellow  </label>
+            
+            <label class="form-check form-check-inline text-mysize">
+                <input type="radio" name="optradio" class="optradio" value="correct"> Red  </label>
+
+        </form>
+
+        <p class="question">4. What is the largest country, by area, that has only one time zone?</p>
+        <form class="response">
+            <label class="form-check form-check-inline text-mysize">
+              <input type="radio" name="optradio" class="optradio" value="correct"> China </label>
+            
+            <label class="form-check form-check-inline text-mysize">
+              <input type="radio" name="optradio" class="optradio" value="wrong"> Turkey  </label>
+            
+            <label class="form-check form-check-inline text-mysize">
+              <input type="radio" name="optradio" class="optradio" value="wrong"> Russia  </label>
+            
+            <label class="form-check form-check-inline text-mysize">
+                <input type="radio" name="optradio" class="optradio" value="wrong"> Australia  </label>
+
+        </form>
+
+        <p class="question">5. How many spaces are on a standard Monopoly board?</p>
+        <form class="response">
+            <label class="form-check form-check-inline text-mysize">
+              <input type="radio" name="optradio" class="optradio" value="wrong"> 20 </label>
+            
+            <label class="form-check form-check-inline text-mysize">
+              <input type="radio" name="optradio" class="optradio" value="correct"> 40  </label>
+            
+            <label class="form-check form-check-inline text-mysize">
+              <input type="radio" name="optradio" class="optradio" value="wrong"> 80  </label>
+            
+            <label class="form-check form-check-inline text-mysize">
+                <input type="radio" name="optradio" class="optradio" value="wrong"> 60  </label>
+
+        </form>
+
 
         <div>
         <p class="lead btn btn-lg btn-danger" id="game-done">Done</p>
@@ -33,10 +114,10 @@
     </div>
 
     <div class="endStats text-center">
-        <p class="lead2" id="summary">All Done!</p> 
-        <p class="lead2" id="correctScore"></p>
-        <p class="lead2" id="wrongScore"></p>
-        <p class="lead2" id="unanswered"></p>
+        <p id="summary">All Done!</p> 
+        <p id="correctScore"></p>
+        <p id="wrongScore"></p>
+        
     </div>
 
     
