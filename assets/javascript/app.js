@@ -17,7 +17,7 @@ $(document).ready(function() {
     
     function displayStats (){
         $("#correctScore").text("Number of Correct Answers " + correctAnswers)
-        $("#wrongScore").text("Number of Correct Answers " + wrongAnswers)
+        $("#wrongScore").text("Number of Wrong Answers " + wrongAnswers)
         $(gameStart).show();
         // console.log("inside function")
         
